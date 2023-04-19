@@ -5,9 +5,10 @@
 #include<windows.h>
 #include<errno.h>
 
-void Rohan(){
-	printf("I'm Rohan'");
+void rohan(){
+	printf("I'm Rohan\n");
 }
+
 void gotoxy(int x,int y){
 	COORD coord;
 	coord.X = x;
@@ -234,6 +235,7 @@ Cstudent *search(Cstudent students[],int *searchResultSize,char value[],int size
 }
 
 void main(){
+	rohan();
 	SetConsoleTitle("DEMO APPLICATION");
 	Cstudent *student;	
  	int size=0;int i=0,searchResultSize=0;
