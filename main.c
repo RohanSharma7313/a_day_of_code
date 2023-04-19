@@ -5,6 +5,9 @@
 #include<windows.h>
 #include<errno.h>
 
+void Rohan(){
+	printf("I'm Rohan'");
+}
 void gotoxy(int x,int y){
 	COORD coord;
 	coord.X = x;
